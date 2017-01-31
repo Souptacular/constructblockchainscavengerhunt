@@ -66,6 +66,8 @@ https://ethereum.stackexchange.com/
 
 https://github.com/ipfs/ipfs
 
+[ZCash User Help SLack](https://chat.zcashcommunity.com/channel/user-support)
+
 ## How to Get Ropsten Testnet Ether
 [B9Labs Faucet](http://ipfs.b9lab.com:8080/ipfs/QmTHdYEYiJPmbkcth3mQvEQQgEamFypLhc9zapsBatQW7Y/throttled_faucet.html)
 
