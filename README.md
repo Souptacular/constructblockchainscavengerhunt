@@ -45,10 +45,11 @@ Start up your zcash client. (Here's our guide: https://github.com/zcash/zcash/wi
 3. Check the zaddr you provided for an incoming transaction that will contain the next clue in its encrypted memo field. 
 
 Tips: 
-The command to get a new z_address is "./src/zcash-cli z_getnewaddress"
-The command to check the balance of a zaddr is "./src/zcash-cli z_listreceivedbyaddress <your zaddr>"
-Messages in the encrypted memo field are padded with 0's out to 512 bytes, so be sure to strip off the extra zeros before decoding the message you receive.
-It's possible to send messages in the encrypted memo field from transparent addresses to shielded addresses, as well as shielded -> shielded. 
+- The command to get a new z_address is "./src/zcash-cli z_getnewaddress"
+- The command to check the balance of a zaddr is "./src/zcash-cli z_listreceivedbyaddress <your zaddr>"
+- Documentation for the encrypted memo field is in [payment-api.md](https://github.com/zcash/zcash/blob/master/doc/payment-api.md)
+- Messages in the encrypted memo field are padded with 0's out to 512 bytes, so be sure to strip off the extra zeros before decoding the message you receive.
+- It's possible to send messages in the encrypted memo field from transparent addresses to shielded addresses, as well as shielded -> shielded. 
 
 P.S. Here's a handy tool that can help with sending and receiving messages in the encrypted memo field: https://github.com/whyrusleeping/zmsg
 
