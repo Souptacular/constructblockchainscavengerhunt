@@ -37,7 +37,7 @@ Send us a shielded transaction with a return z_address (zaddr) you control embed
 
 You'll need a running zcash daemon, a z_address, and some ZEC (0.0002 ZEC should be sufficient for one message). Anything you put in the encrypted memo field must be encoded in hexadecimal format, and must not exceed 512 bytes.
 
-The address to send to is: zcEqEGaNnc18CwTRvCMkmdqykc5ug2e9jT3mk3gGeRDKyLUa8BRHPpcyoghuHPyHorGCbrPXy3Tbi6Pz45vwoSGxPURsohJ1
+The address to send to is: zcEqEGaNnc18CwTRvCMkmdqykc5ug2e9jT3mk3gGeRDKyLUa8BRHPpcyoghuHPyHorGCbrPXy3Tbi6Pz45vwoSGxPURsohJ
 
 Start up your zcash client. (Here's our guide: https://github.com/zcash/zcash/wiki/1.0-User-Guide)
 2. Send a shielded transaction to the address above, with a zaddr you control embedded in the encrypted memo field. Suggested value of the transaction is 0.0001 ZEC, remember to encode your message in hex, and keep it under 512 bytes. 
@@ -45,10 +45,11 @@ Start up your zcash client. (Here's our guide: https://github.com/zcash/zcash/wi
 3. Check the zaddr you provided for an incoming transaction that will contain the next clue in its encrypted memo field. 
 
 Tips: 
-The command to get a new z_address is "./src/zcash-cli z_getnewaddress"
-The command to check the balance of a zaddr is "./src/zcash-cli z_listreceivedbyaddress <your zaddr>"
-Messages in the encrypted memo field are padded with 0's out to 512 bytes, so be sure to strip off the extra zeros before decoding the message you receive.
-It's possible to send messages in the encrypted memo field from transparent addresses to shielded addresses, as well as shielded -> shielded. 
+- The command to get a new z_address is "./src/zcash-cli z_getnewaddress"
+- The command to check the balance of a zaddr is "./src/zcash-cli z_listreceivedbyaddress <your zaddr>"
+- Documentation for the encrypted memo field is in [payment-api.md](https://github.com/zcash/zcash/blob/master/doc/payment-api.md)
+- Messages in the encrypted memo field are padded with 0's out to 512 bytes, so be sure to strip off the extra zeros before decoding the message you receive.
+- It's possible to send messages in the encrypted memo field from transparent addresses to shielded addresses, as well as shielded -> shielded. 
 
 P.S. Here's a handy tool that can help with sending and receiving messages in the encrypted memo field: https://github.com/whyrusleeping/zmsg
 
