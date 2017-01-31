@@ -37,7 +37,7 @@ Send us a shielded transaction with a return z_address (zaddr) you control embed
 
 You'll need a running zcash daemon, a z_address, and some ZEC (0.0002 ZEC should be sufficient for one message). Anything you put in the encrypted memo field must be encoded in hexadecimal format, and must not exceed 512 bytes.
 
-The address to send to is: zcEqEGaNnc18CwTRvCMkmdqykc5ug2e9jT3mk3gGeRDKyLUa8BRHPpcyoghuHPyHorGCbrPXy3Tbi6Pz45vwoSGxPURsohJ1
+The address to send to is: zcEqEGaNnc18CwTRvCMkmdqykc5ug2e9jT3mk3gGeRDKyLUa8BRHPpcyoghuHPyHorGCbrPXy3Tbi6Pz45vwoSGxPURsohJ
 
 Start up your zcash client. (Here's our guide: https://github.com/zcash/zcash/wiki/1.0-User-Guide)
 2. Send a shielded transaction to the address above, with a zaddr you control embedded in the encrypted memo field. Suggested value of the transaction is 0.0001 ZEC, remember to encode your message in hex, and keep it under 512 bytes. 
