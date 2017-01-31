@@ -58,7 +58,7 @@ The first 2 people who email me with their IPFS hash after successfully completi
 
 ## Helpful Links
 
-[We have a chat channel on Gitter with people willing to help. Join ethereum/scavengerhunt on 
+[We have a chat channel on Gitter with people willing to help. Join Souptaculatr/scavengerhunts on Gitter](https://gitter.im/Souptacular/scavengerhunts). 
 
 https://bitcoin.stackexchange.com/
 
